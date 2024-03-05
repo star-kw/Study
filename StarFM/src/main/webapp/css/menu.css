@@ -1,0 +1,79 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ebecf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    border-radius: 10px;
+    box-shadow: -5px -5px 10px #fff, 5px 5px 10px #babebc;
+    position: absolute;
+    width: 768px;
+    min-height: 480px;
+    overflow: hidden;
+    background-image: url("../images/coffee.jpeg");
+    background-size: cover;
+}
+
+.confirm-info {
+    background: #ebecf0;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirm-info p {
+    margin: 10px;
+}
+
+.confirm-info h2 {
+    margin-bottom: 10px;
+}
+
+.confirm-info form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.confirm-info label {
+    margin: 5px;
+}
+
+.confirm-info button[type="submit"] {
+    margin-top: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform 80ms ease-in;
+    background-color: #9D6C6C;
+    color: #fff;
+}
+
+.confirm-info button[type="submit"]:hover {
+    background-color: #574141;
+}
+
+h1 {
+    font-weight: bold;
+    margin: 0;
+    color: #000;
+    text-align: center;
+}
